@@ -1,0 +1,41 @@
+.main-container{
+    /* background: salmon; */
+    padding: 20px 25px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Issue-lists{
+    background: #ffffff;
+    width: 90%;
+    border-radius: 4px;
+    padding: 2px 0;
+    margin-top: 10px;
+}
+
+.issues{
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   width: 100%;
+   /* background: rgb(204, 58, 58) */
+}
+
+.issue-count{
+    padding-left: 10px;
+}
+
+.issue-count span{
+    margin: 4px 8px;
+    font-size: 14px;
+}
+
+.issue-count .open{
+  color: #24292e;
+}
+
+.issue-count .closed{
+    color: #6b727a;
+}

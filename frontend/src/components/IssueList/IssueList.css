@@ -1,0 +1,30 @@
+.issueList{
+    width: 90%;
+    margin: 2px auto;
+    list-style: none;
+    padding-left: 8px;
+    border: 2px solid #9e9c9c;
+    border-radius: 3px;
+}
+
+.issueList h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f4347;
+}
+
+.issueList p{
+    font-size: 12px;
+    color: #888e94;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
