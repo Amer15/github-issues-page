@@ -1,11 +1,11 @@
 const express = require('express');
+const app = express();
 const path = require('path');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
-const app = express();
 const issueRoutes = require('./backend/routes/issue');
 
 const PORT = process.env.PORT || 5000;
